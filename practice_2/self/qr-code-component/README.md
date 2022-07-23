@@ -26,3 +26,4 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Author
 
 - Github - [Toma Margishvili](https://github.com/hgresa)
+- Github Page - (https://hgresa.github.io/bitcamp_lite/practice_2/self/qr-code-component/index.html)
