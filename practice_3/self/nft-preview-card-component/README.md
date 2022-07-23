@@ -28,4 +28,4 @@ This is a solution to the [NFT preview card component coding challenge on Fronte
 ## Author
 
 - Github - [Toma Margishvili](https://github.com/hgresa)
-- Github Page - 
+- Github Page - (https://hgresa.github.io/bitcamp_lite/practice_3/self/nft-preview-card-component/)
