@@ -1,0 +1,125 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+
+.card-container {
+    background-color: hsl(216, 50%, 16%);
+}
+
+html, body, main {
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    width: 270px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+hr {
+    color: hsl(215, 32%, 27%);
+    background-color: hsl(215, 32%, 27%);
+    height: 1px;
+    border: none;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #00FFF8;
+    border-radius: 8px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.card-container .image-container .eye-img {
+    position: absolute;
+    top: 42%;
+    left: 40%;
+    opacity: 0;
+}
+
+.image-container:hover .overlay {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.image-container:hover .eye-img {
+    opacity: 0.5;
+}
+
+.card-details .info p {
+    font-size: 18px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+}
+
+.card-details .data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-details .data .price, .time-left {
+    display: flex;
+    align-items: center;
+}
+
+.card-details .data .price, .time-left p {
+    margin-left: 6px;
+}
+
+.card-details .data .price p {
+    color: hsl(178, 100%, 50%);
+}
+
+.card-details .data .time-left p {
+    color: hsl(215, 51%, 70%);
+}
+
+.card-details .author {
+    display: flex;
+    align-items: center;
+}
+
+.card-details .author img {
+    width: 33px;
+    height: 33px;
+    margin-right: 16px;
+}
+
+.card-details .author p:first-of-type {
+    color: hsl(215, 51%, 70%);
+    margin-right: 5px;
+}
+
+.card-details .author p:nth-of-type(2) {
+    color: white;
+}
+
+.card-details .author p:nth-of-type(2):hover, .card-details .info h4:hover {
+    color: #00FFF8;
+    cursor: pointer;
+}
