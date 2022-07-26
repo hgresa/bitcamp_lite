@@ -25,4 +25,4 @@ This is a solution to the [Order summary component challenge on Frontend Mentor]
 ## Author
 
 - Github - [Toma Margishvili](https://github.com/hgresa)
-- Github Page - 
+- Github Page - (https://hgresa.github.io/bitcamp_lite/practice_4/self/order-summary-component/)
