@@ -1,28 +1,32 @@
-# Oto's Bootcamp - Order summary component solution
+# Front-end Style Guide
 
-This is a solution to the [Order summary component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+## Layout
 
-## Table of contents
+The designs were created to the following widths:
 
-- [My process](#my-process)
-    - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
-- [Author](#author)
+- Mobile: 375px
+- Desktop: 1440px
 
+## Colors
 
-## My process
+### Primary
 
-### Built with
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
 
-- Semantic HTML5 markup
-- CSS3
-- CSS Flex
+### Neutral
 
-### What I learned
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
 
-- How to center elements using Flexbox
+## Typography
 
-## Author
+### Body Copy
 
-- Github - [Toma Margishvili](https://github.com/hgresa)
-- Github Page - 
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900
